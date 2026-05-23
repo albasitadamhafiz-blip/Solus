@@ -25,6 +25,10 @@
     --grey: #B8B8B8;
 }
 
+html {
+    background-color: var(--white2);
+}
+
 /* Style Navbar */
 .navbar {
     height: 91px;
