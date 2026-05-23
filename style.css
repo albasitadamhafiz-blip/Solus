@@ -23,10 +23,10 @@
     --variantYellow: #EFC01D;
     --variantPink: #F39CAC;
 
-    --grey: #B8B8B8;
+    --grey1: #B8B8B8;
+    --grey2: #F7F6F4;
 }
 
 html {
     background-color: var(--white2);
-    font-size: 10px;
 }
