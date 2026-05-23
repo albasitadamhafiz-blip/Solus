@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*,
+*::after,
+*::before {
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+:root {
+    --white1: #ffffff;
+    --white2: #F7F6F4;
+
+    --orange1: #F9E6D0;
+    --orange2: #FDF7F1;
+
+    --darkGreen: #00373E;
+
+    --variantBlue: #4CCBBB;
+    --variantYellow: #EFC01D;
+    --variantPink: #F39CAC;
+
+    --grey: #B8B8B8;
+}
