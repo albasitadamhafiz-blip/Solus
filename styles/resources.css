@@ -2,11 +2,13 @@
     width: 1240px;
     height: 1279px;
     margin: 0 auto;
-    margin-top: 20px;
+    /* margin-top: 150px; */
+    transform: translateY(300px);
     /* margin-bottom: 20px; */
     display: flex;
     align-items: center;
     gap: 20px;
+    position: relative;
     flex-direction: column;
     justify-content: flex-start;
     color: var(--darkGreen);
