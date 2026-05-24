@@ -1,0 +1,31 @@
+.partnes {
+    background-color: var(--white1);
+    width: 1240px;
+    height: 158px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.partnes img {
+    /* width: 150px; */
+    height: fit-content;
+    /* align-items: center;s */
+}
+
+.partner__img {
+    width: 140px;
+    height: 26px;
+}
+
+.partner__1 {
+    width: 180px;
+    height: 41px;
+}
+
+.partner__2 {
+    width: 129px;
+    height: 48px;
+}
