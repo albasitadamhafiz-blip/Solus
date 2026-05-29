@@ -4,6 +4,7 @@
   margin: 0 auto;
   color: var(--darkGreen);
   display: flex;
+  padding: 0 0 150px 0;
   flex-direction: column;
   gap: 4rem;
 }
@@ -108,34 +109,34 @@
 }
 
 .faq__accordion-description {
-    /* max-height: 0; */
-    height: 0px;
-    overflow: hidden;
+  /* max-height: 0; */
+  height: 0px;
+  overflow: hidden;
 
-    opacity: 0;
+  opacity: 0;
 
-    transition:
-        max-height 0.4s ease,
-        opacity 0.3s ease,
-        margin-top 0.3s ease;
+  transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease,
+    margin-top 0.3s ease;
 
 
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    /* padding: 2.5rem 4rem; */
-    border-radius: 3rem;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  /* padding: 2.5rem 4rem; */
+  border-radius: 3rem;
 
-    background-color: var(--white1);
+  background-color: var(--white1);
 }
 
-.faq__item.active .faq__accordion-description  {
-    max-height: 300px;
-    opacity: 1;
-    padding: 2.5rem 4rem;
-    height: auto;
+.faq__item.active .faq__accordion-description {
+  max-height: 300px;
+  opacity: 1;
+  padding: 2.5rem 4rem;
+  height: auto;
 }
 
 .faq__item.active .faq__accordion-toggle {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
